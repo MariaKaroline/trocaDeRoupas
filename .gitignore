@@ -52,3 +52,6 @@ Thumbs.db
 node_modules.zip
 npm-debug.log.*
 yarn.lock
+
+
+DigiCertGlobalRootCA.crt.pem

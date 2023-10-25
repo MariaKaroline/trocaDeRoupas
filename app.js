@@ -31,10 +31,10 @@ app.use(express.urlencoded({ extended: true })); // Middleware para analisar dad
 const mysql = require('mysql2');
 
 const db = mysql.createConnection({
-  host: "brecho-storage.mysql.database.azure.com",
-  user: "Admin_storage",
-  password: "Bazarcomnode123",
-  database: "brecho_db",
+  host: "",
+  user: "",
+  password: "",
+  database: "",
   port: 3306,
   ssl: {
     ca: fs.readFileSync("./DigiCertGlobalRootCA.crt.pem")
