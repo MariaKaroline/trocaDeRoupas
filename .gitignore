@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+
+# Arquivos de log
+npm-debug.log
+yarn-error.log
+
+# Arquivos de build
+/build/
+/dist/
+/out/
+
+# Dependências locais
+.local/
+.local-history/
+
+# Arquivos temporários
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.log.*
+yarn-error.log*
+yarn-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+.env.*.development
+.env.*.test
+.env.*.production
+
+# Cache de eslint
+.eslintcache
+
+# Cache de TypeScript
+*.tsbuildinfo
+
+# IDEs (Visual Studio Code, WebStorm, etc.)
+.idea/
+.vscode/
+.project
+.settings/
+
+# Outros
+.DS_Store
+Thumbs.db
+node_modules.zip
+npm-debug.log.*
+yarn.lock
